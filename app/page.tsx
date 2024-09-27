@@ -4,6 +4,7 @@ import LandingSectionTwo from './components/LandingSectionTwo/LandingSectionTwo'
 import LandingSectionThree from './components/LandingSectionThree/LandingSectionThree';
 import LandingSectionFour from './components/LandingSectionFour/LandingSectionFour';
 import LandingSectionFive from './components/LandingSectionFive/LandingSectionFive';
+import LandingSectionSix from './components/LandingSectionSix/LandingSectionSix';
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
       <LandingSectionThree />
       <LandingSectionFour />
       <LandingSectionFive />
+      <LandingSectionSix />
     </section>
   );
 };

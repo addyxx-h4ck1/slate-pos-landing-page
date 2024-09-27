@@ -58,4 +58,19 @@
     }
   }
   /* ============= LANDING  SECTION FOUR ============ */
+  /* ============= LANDING  SECTION FIVE ============ */
+  @media screen and (max-width: 766px) {
+    .sectionfive {
+      flex-direction: column-reverse;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+    }
+    .sectionfive section article {
+      justify-content: center;
+      padding: 0 1rem;
+    }
+  }
+  /* ============= LANDING  SECTION FIVE ============ */
 }
