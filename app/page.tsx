@@ -3,6 +3,7 @@ import LandingHeroSection from './components/landingherosection/LandingHeroSecti
 import LandingSectionTwo from './components/LandingSectionTwo/LandingSectionTwo';
 import LandingSectionThree from './components/LandingSectionThree/LandingSectionThree';
 import LandingSectionFour from './components/LandingSectionFour/LandingSectionFour';
+import LandingSectionFive from './components/LandingSectionFive/LandingSectionFive';
 
 const Page = () => {
   return (
@@ -11,6 +12,7 @@ const Page = () => {
       <LandingSectionTwo />
       <LandingSectionThree />
       <LandingSectionFour />
+      <LandingSectionFive />
     </section>
   );
 };

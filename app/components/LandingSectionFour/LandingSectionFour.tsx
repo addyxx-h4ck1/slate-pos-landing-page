@@ -7,7 +7,7 @@ import sectionImage from '@/public/section-four.svg';
 
 const LandingSectionFour = () => {
   return (
-    <section className="sectionfour mt-[6rem] text-fontPrimary mb-7 flex justify-around mx-2 gap-4">
+    <section className="sectionfour mt-[6rem] text-fontPrimary flex justify-around mx-2 gap-4">
       <article className="max-w-[500px] w-full">
         <h2 className="font-bold text-2xl mb-5 ">
           Interface-Rich Billing and POS Invoicing Tools
