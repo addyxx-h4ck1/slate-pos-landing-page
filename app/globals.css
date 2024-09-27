@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  /* ============= NAVBAR ============ */
+  .nav-toogle {
+    display: none !important;
   }
+  @media screen and (max-width: 770px) {
+    .nav {
+      justify-content: space-between;
+    }
+    .nav-toogle {
+      display: block !important;
+    }
+    .navlinks {
+      display: none !important;
+    }
+  }
+  /* ============= NAVBAR ============ */
+  /* ============= LANDING HERO SECTION ============ */
+  @media screen and (max-width: 830px) {
+    .heromain {
+      flex-direction: column;
+      text-align: center;
+      gap: 3rem;
+    }
+    .heromain img {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .heromain img {
+      width: 100%;
+    }
+  }
+  /* ============= LANDING HERO SECTION ============ */
+  /* ============= LANDING  SECTION TWO ============ */
+  @media screen and (max-width: 736px) {
+    .landingSectionTwo {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  .heroCards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  /* ============= LANDING  SECTION TWO ============ */
+  /* ============= LANDING  SECTION FOUR ============ */
+  @media screen and (max-width: 768px) {
+    .sectionfour {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
+  /* ============= LANDING  SECTION FOUR ============ */
 }
