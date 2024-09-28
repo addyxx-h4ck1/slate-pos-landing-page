@@ -15,6 +15,9 @@ const config: Config = {
         fontPrimary: '#1b1b1b',
         fontSecondary: '#8B9199',
       },
+      boxShadow: {
+        custom: '0 15px 40px rgba(0, 0, 0, 0.2)',
+      },
     },
   },
   plugins: [],
