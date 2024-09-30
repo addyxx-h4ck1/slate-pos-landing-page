@@ -19,7 +19,7 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          href={''}
+          href={'/about'}
           className="duration-300 hover:text-primary font-semibold"
         >
           About

@@ -8,9 +8,9 @@ const LandingHeroSection = () => {
   return (
     <section className="min-h-screen w-full bg-secondary pb-5">
       <Navbar />
-      <article className="heromain mt-5 flex justify-center items-center gap-4 mx-2">
+      <article className="heromain mt-[4rem] md:mt-5 flex justify-center items-center gap-4 mx-2">
         <div className="max-w-[500px]">
-          <h1 className="text-5xl font-bold mb-5">
+          <h1 className="text-4xl md:text-5xl font-bold mb-5">
             Latest POS Systems & Management
           </h1>
           <p className="text-fontSecondary">
