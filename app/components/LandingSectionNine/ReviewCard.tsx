@@ -1,11 +1,12 @@
+'use client';
 import Image from 'next/image';
 import React from 'react';
 import ReviewImage from '@/public/reviews/testimonial-pic-5.jpg';
 
 const ReviewCard = () => {
   return (
-    <article className="w-full max-w-[300px]">
-      <div className="p-4 rounded-lg shadow-custom w-full">
+    <article className="w-full max-w-[700px] p-2 cursor-pointer">
+      <div className="p-6  rounded-lg shadow-custom w-full h-full min-h-[200px] flex justify-center items-center">
         <p className="text-fontSecondary text-sm text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora
           ea asperiores fugiat numquam, veniam et laboriosam. Optio ex quia

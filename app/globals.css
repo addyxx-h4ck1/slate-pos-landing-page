@@ -89,6 +89,12 @@
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  .reviewsSwiper {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   /* ============= LANDING  SECTION   EIGHT ============ */
   /* ============= FOOTER ============ */
   .footer-wrapper {

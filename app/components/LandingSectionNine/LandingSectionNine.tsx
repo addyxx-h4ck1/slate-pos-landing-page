@@ -1,9 +1,10 @@
+'use client';
 import React from 'react';
-import ReviewCard from './ReviewCard';
+import ReviewsSlider from './ReviewsSlider';
 
 const LandingSectionNine = () => {
   return (
-    <section className="mt-[6rem] text-fontPrimary flex justify-center items-center flex-col">
+    <section className="mt-[6rem] text-fontPrimary flex justify-center items-center flex-col mx-2">
       <section className="w-full max-w-[1000px] text-center flex justify-center items-center flex-col ">
         <h2 className="text-3xl font-semibold w-full max-w-[500px] mb-5">
           What Our Clients Speak About Us!
@@ -13,8 +14,8 @@ const LandingSectionNine = () => {
           area of POS management, systems, software, & customized tools.
         </p>
       </section>
-      <section className="w-full mt-5 max-w-[1000px] text-center flex justify-center items-center flex-col ">
-        <ReviewCard />
+      <section className="w-full mt-5 max-w-[1000px] text-center flex justify-center items-center flex-col px-5 ">
+        <ReviewsSlider />
       </section>
     </section>
   );
