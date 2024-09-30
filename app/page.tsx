@@ -7,10 +7,11 @@ import LandingSectionFive from './components/LandingSectionFive/LandingSectionFi
 import LandingSectionSix from './components/LandingSectionSix/LandingSectionSix';
 import LandingSectionSeven from './components/LandingSectionSeven/LandingSectionSeven';
 import LandingSectionEight from './components/LandingSectionEight/LandingSectionEight';
+import LandingSectionNine from './components/LandingSectionNine/LandingSectionNine';
 
 const Page = () => {
   return (
-    <section className="">
+    <section>
       <LandingHeroSection />
       <LandingSectionTwo />
       <LandingSectionThree />
@@ -19,6 +20,7 @@ const Page = () => {
       <LandingSectionSix />
       <LandingSectionSeven />
       <LandingSectionEight />
+      <LandingSectionNine />
     </section>
   );
 };
