@@ -90,4 +90,11 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   /* ============= LANDING  SECTION   EIGHT ============ */
+  /* ============= FOOTER ============ */
+  .footer-wrapper {
+    display: grid;
+    gap: 2.3rem;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  }
+  /* ============= FOOTER ============ */
 }
