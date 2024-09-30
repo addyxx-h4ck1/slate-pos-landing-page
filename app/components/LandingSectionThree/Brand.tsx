@@ -4,7 +4,7 @@ import brandOne from '@/public/brands/brand1.svg';
 
 const Brand = () => {
   return (
-    <article className="">
+    <article className="flex justify-center items-center">
       <Image
         alt="brabdlogo"
         src={brandOne}

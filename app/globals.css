@@ -49,6 +49,14 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
   /* ============= LANDING  SECTION TWO ============ */
+  /* ============= LANDING  SECTION THREE ============ */
+  .brands-slider {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  /* ============= LANDING  SECTION THREE ============ */
   /* ============= LANDING  SECTION FOUR ============ */
   @media screen and (max-width: 768px) {
     .sectionfour {
@@ -58,6 +66,7 @@
     }
   }
   /* ============= LANDING  SECTION FOUR ============ */
+
   /* ============= LANDING  SECTION FIVE ============ */
   @media screen and (max-width: 766px) {
     .sectionfive {
