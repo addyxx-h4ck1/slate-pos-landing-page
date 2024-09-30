@@ -7,7 +7,7 @@ interface propTypes {
   price: string;
 }
 
-const PriceCardBasic: React.FC<propTypes> = ({ duration, price }) => {
+const PriceCardBasic: React.FC<propTypes> = ({ duration }) => {
   return (
     <div className="priceCard bg-white p-8 text-left flex flex-col">
       <h2 className="font-semibold text-lg mb-5">Basic Pack</h2>
