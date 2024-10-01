@@ -1,5 +1,12 @@
 import React from 'react';
 import CardOne from './CardOne';
+import {
+  faGear,
+  faLineChart,
+  faRocket,
+  faTimeline,
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AboutPageSectionFour = () => {
   return (
@@ -15,10 +22,49 @@ const AboutPageSectionFour = () => {
         </p>
       </article>
       <article className="section-four w-full max-w-[900px] mt-6 px-4">
-        <CardOne />
-        <CardOne />
-        <CardOne />
-        <CardOne />
+        <CardOne
+          Icon={
+            <FontAwesomeIcon
+              icon={faTimeline}
+              className="text-primary text-4xl"
+            />
+          }
+          desciption={
+            'Providing on-time completion of client-end web projects.'
+          }
+          name={'Time management'}
+        />
+        <CardOne
+          Icon={
+            <FontAwesomeIcon icon={faGear} className="text-primary text-4xl" />
+          }
+          desciption={'Ensuring a steady workflow via integration of new Apps.'}
+          name={'Workflow Management'}
+        />
+        <CardOne
+          Icon={
+            <FontAwesomeIcon
+              icon={faRocket}
+              className="text-primary text-4xl"
+            />
+          }
+          desciption={
+            'Delivering quality solutions to web-based entities & firms.'
+          }
+          name={'Power Performance'}
+        />
+        <CardOne
+          Icon={
+            <FontAwesomeIcon
+              icon={faLineChart}
+              className="text-primary text-4xl"
+            />
+          }
+          desciption={
+            'Significant growth in the area of web applications & programs.'
+          }
+          name={'Unlimited Growth'}
+        />
       </article>
     </section>
   );
