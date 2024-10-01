@@ -159,4 +159,13 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   /* ======================== SECTION FOUR======================== */
+
+  /* ======================== SECTION FIVE======================== */
+  @media screen and (max-width: 600px) {
+    .counter-wrapper {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  /* ======================== SECTION FIVE======================== */
 }
