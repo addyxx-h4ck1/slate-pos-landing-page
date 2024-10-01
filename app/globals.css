@@ -143,4 +143,12 @@
     }
   }
   /* ======================== SECTION TWO======================== */
+
+  /* ======================== SECTION THREE======================== */
+  .software-process {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  /* ======================== SECTION THREE======================== */
 }
