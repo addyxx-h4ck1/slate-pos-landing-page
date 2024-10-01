@@ -151,4 +151,12 @@
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
   /* ======================== SECTION THREE======================== */
+
+  /* ======================== SECTION FOUR======================== */
+  .section-four {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  /* ======================== SECTION FOUR======================== */
 }

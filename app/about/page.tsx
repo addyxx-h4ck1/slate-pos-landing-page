@@ -4,6 +4,7 @@ import AboutPageSectionOne from './components/AboutPageSectionOne/AboutPageSecti
 import AboutPageSectionTwo from './components/AboutpageSectionTwo/AboutPageSectionTwo';
 import Footer from '../components/Footer';
 import AboutPageSectionThree from './components/AboutPageSectionThree/AboutPageSectionThree';
+import AboutPageSectionFour from './components/AboutPageSectionFour/AboutPageSectionFour';
 
 const Page = () => {
   return (
@@ -12,6 +13,7 @@ const Page = () => {
       <AboutPageSectionOne />
       <AboutPageSectionTwo />
       <AboutPageSectionThree />
+      <AboutPageSectionFour />
       <Footer />
     </>
   );
